@@ -26,3 +26,12 @@ go run . --publisher
 ```
 
 this connects to the message queue named `hello` and sends a `Hello World!` plaintext message
+
+## Disclaimer
+
+This is not Google-approved code, it is a personal project for
+educational purposes and it is not suitable for production.
+
+## License
+
+MIT
