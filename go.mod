@@ -2,7 +2,12 @@ module github.com/piotrostr/crs-connector
 
 go 1.20
 
-require cloud.google.com/go/retail v1.14.1
+require (
+	cloud.google.com/go/retail v1.14.1
+	github.com/rabbitmq/amqp091-go v1.8.1
+	google.golang.org/api v0.126.0
+	google.golang.org/genproto v0.0.0-20230530153820-e85fd2cbaebc
+)
 
 require (
 	cloud.google.com/go v0.110.2 // indirect
@@ -21,9 +26,7 @@ require (
 	golang.org/x/oauth2 v0.8.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
-	google.golang.org/api v0.126.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20230530153820-e85fd2cbaebc // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20230530153820-e85fd2cbaebc // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230530153820-e85fd2cbaebc // indirect
 	google.golang.org/grpc v1.55.0 // indirect
