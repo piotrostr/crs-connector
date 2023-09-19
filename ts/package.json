@@ -1,0 +1,14 @@
+{
+  "name": "crs-connector-ts",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/retail": "^3.0.1"
+  }
+}
